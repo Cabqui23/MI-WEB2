@@ -235,3 +235,48 @@ nav ul li {
     display: inline;
     margin-right: 10px; /* Reducimos el margen derecho para separar los elementos */
 }
+
+
+@media only screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .menu-items {
+        display: none;
+        position: absolute;
+        background-color: #663300;
+        width: 100%;
+        padding: 10px 0;
+        left: 0;
+        top: 100%;
+        text-align: center;
+    }
+
+    .menu-items li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .menu-item {
+        display: block;
+    }
+
+    .menu-item a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    #menu-toggle:checked + .menu-items {
+        display: block;
+    }
+}
+
