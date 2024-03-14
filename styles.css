@@ -230,3 +230,8 @@ form button:hover {
     margin-bottom: 20px; /* Reducimos el margen inferior */
     border-radius: 8px;
 }
+/* Estilos para el menú de navegación */
+nav ul li {
+    display: inline;
+    margin-right: 10px; /* Reducimos el margen derecho para separar los elementos */
+}
