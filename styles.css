@@ -194,3 +194,39 @@ form button:hover {
 }
 
 
+/* Estilos para la sección "Sobre Gringa Benites" */
+#sobre {
+    background-color: #ffd699; /* Amarillo claro */
+    padding: 20px; /* Reducimos el padding para dispositivos móviles */
+    margin-bottom: 20px; /* Reducimos el margen inferior */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; /* Cambiamos la dirección del flexbox para dispositivos móviles */
+}
+
+.mascota-info {
+    margin-bottom: 20px; /* Añadimos espacio inferior entre la información y la imagen */
+}
+
+.mascota-image {
+    margin-left: 0; /* Eliminamos el margen izquierdo para dispositivos móviles */
+}
+.mascota-image img {
+    width: 100%; /* Hacemos que la imagen ocupe todo el ancho del contenedor */
+    max-width: 300px; /* Establecemos un ancho máximo para evitar que la imagen sea demasiado grande */
+}
+
+/* Estilos para la sección "Historias y Anécdotas" */
+#historias {
+    background-color: #e6e6e6; /* Gris claro */
+    padding: 20px; /* Reducimos el padding para dispositivos móviles */
+    margin-bottom: 20px; /* Reducimos el margen inferior */
+    border-radius: 8px;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+    padding: 20px; /* Reducimos el padding para dispositivos móviles */
+    margin-bottom: 20px; /* Reducimos el margen inferior */
+    border-radius: 8px;
+}
