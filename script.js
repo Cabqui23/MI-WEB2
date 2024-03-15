@@ -40,3 +40,4 @@ form.addEventListener("submit", (e) => {
     e.preventDefault(); // Evita que el formulario se envíe automáticamente
   }
 });
+

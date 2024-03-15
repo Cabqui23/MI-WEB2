@@ -666,3 +666,18 @@ footer {
     border-top: 2px solid #fff; /* Borde superior en color blanco */
 }
 
+/* Dentro de la sección de estilos CSS en el archivo styles.css */
+
+/* Modifica el tamaño de la imagen y su contenedor para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .acerca-imagen {
+      width: 100%;
+      text-align: center; /* Centra la imagen en pantallas pequeñas */
+    }
+    .acerca-imagen img {
+      max-width: 30%; /* Ajusta el ancho máximo de la imagen */
+      height: auto; /* Ajusta automáticamente la altura */
+      margin: auto; /* Centra la imagen horizontalmente */
+    }
+  }
+  
